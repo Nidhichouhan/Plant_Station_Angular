@@ -1,0 +1,27 @@
+.bg{
+    background-image: url("/mnt/c/Users/HP/Desktop/PROGRAD_DAILY_ANGULAR/PROJECT/plantStation/src/assets/cactus-4400122_960_720.jpg");
+}
+
+.plants{
+    display: flex;
+    width: 50%;
+    column-gap: 1px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    width:200px;
+    height: 200px;
+    margin-left: 80px;
+    border-radius: 100px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-top: 20px;
+    width: 30%;
+    
+}

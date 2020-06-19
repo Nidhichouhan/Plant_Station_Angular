@@ -1,0 +1,12 @@
+<body>
+    <div class="bg">
+        <ul class="plants">
+            <li *ngFor="let item of data">
+
+                <img mat-card-image src="../assets/{{item.image}}" alt="image" srcset="">
+                <button><a href="{{item.full_description}}">FULL DESCRIPTION</a></button>
+
+            </li>
+        </ul>
+    </div>
+</body>

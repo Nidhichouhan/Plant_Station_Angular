@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "firstName": "Ndhi",
+      "lastName": "Chouhan",
+      "email": "chouhannidhi339@gmail.com",
+      "password": "1234567",
+      "id": 1
+    },
+    {
+      "firstName": "Ndhi",
+      "lastName": "Chouhan",
+      "email": "chouhannidhi339@gmail.com",
+      "password": "1234567",
+      "id": 2
+    }
+  ]
+}

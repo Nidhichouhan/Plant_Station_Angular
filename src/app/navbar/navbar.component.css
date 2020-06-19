@@ -1,0 +1,14 @@
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 0.5%;
+    padding-left: 0.5%;
+}
+.plant{
+    margin-left: 650px;
+    color: black;
+    background-color: chartreuse;
+    padding: 30px;
+    font-size: large;
+}

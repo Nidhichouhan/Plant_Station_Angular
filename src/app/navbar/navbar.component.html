@@ -1,0 +1,53 @@
+<nav>
+    <div>
+
+        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon svgIcon="thumbs-up" aria-hidden="false" aria-label="Example thumbs up SVG icon">
+            </mat-icon>
+        </button>
+
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+                <mat-icon svgIcon="list"></mat-icon>
+                <span>SHOP CATEGORIES</span>
+            </button>
+            <button mat-menu-item disabled>
+                <span>Small plants</span>
+            </button>
+            <button mat-menu-item disabled>
+                <span>Large Plants</span>
+            </button>
+            <button mat-menu-item disabled>
+                <span>Gardening</span>
+            </button>
+            <button mat-menu-item disabled>
+                <span>Seeds</span>
+            </button>
+            <button mat-menu-item>
+                <mat-icon svgIcon="about"></mat-icon>
+                <span>ABOUT US</span>
+            </button>
+            <button mat-menu-item>
+                <mat-icon svgIcon="terms"></mat-icon>
+                <span>TERMS & CONDITIONS</span>
+            </button>
+            <button mat-menu-item>
+                <mat-icon svgIcon="customer"></mat-icon>
+                <span>CUSTOMER SUPPORT</span>
+            </button>
+            <button mat-menu-item>
+                <mat-icon svgIcon="feedback"></mat-icon>
+                <span>FEEDBACK</span>
+            </button>
+            <button mat-menu-item>
+                <mat-icon svgIcon="rate"></mat-icon>
+                <span>RATE PLANT STATION APP</span>
+            </button>
+        </mat-menu>
+
+        <div class="plant"><span>PLANT STATION</span></div>
+
+    </div>
+
+
+</nav>
